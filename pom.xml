@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-junit</artifactId>
+  <groupId>io.github.alexwang18</groupId>
+  <artifactId>cs1632-cicd-alw245</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -20,18 +20,26 @@
 
   <developers>
     <developer>
-      <name>Wonsun Ahn</name>
-      <email>wahn@pitt.edu</email>
+      <name>Alex Wang</name>
+      <email>alex.wang@pitt.edu</email>
       <organization>University of Pittsburgh</organization>
       <organizationUrl>https://www.pitt.edu/</organizationUrl>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
-    <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
-    <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
+    <connection>scm:git:git://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-AlexWang18.git</connection>
+    <developerConnection>scm:git:ssh://github.com:CS1632/supplementary-exercise-4-ci-cd-pipelines-AlexWang18.git</developerConnection>
+    <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-AlexWang18</url>
    </scm>
+
+   <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-AlexWang18</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -127,13 +135,5 @@
       </plugin>
     </plugins>
   </reporting>
-
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-AlexWang18</url>
-    </repository>
-  </distributionManagement>
 
 </project>
